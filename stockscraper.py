@@ -2,9 +2,9 @@ import praw
 import pandas as pd
 
 # Step 1: Reddit API Credentials
-client_id = "umPWRK-0L-41cSDulyyU2Q"
-client_secret = "SwOqEyMs1lHlPeQSqc6CD5lSAD027w"
-user_agent = "script:StockMovementAnalysis:v1.0 (by /u/mohith_thetekmad)"
+client_id = "reddit id"
+client_secret = "secret code"
+user_agent = "user agent"
 
 # Step 2: Initialize PRAW
 reddit = praw.Reddit(client_id=client_id,
